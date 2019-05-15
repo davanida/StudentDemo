@@ -19,7 +19,8 @@ public class Week2 {
         arr[0] = new Student("Ronnie",19,200);
         arr[1] = new Student("Rex",18,600);
         arr[2] = new Student("Repunzal",25,421);
-               
+        
+        System.out.println(arr[2].getSid());
         
         
     }
