@@ -6,7 +6,7 @@
 package week2;
 
 /**
- *
+ * Branch change.
  * @author Daniel
  */
 public class Student {
