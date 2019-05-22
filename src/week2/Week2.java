@@ -6,7 +6,7 @@
 package week2;
 
 /**
- *May 22nd, 2019
+ * May 22nd, 2019
  * @author Daniel
  */
 public class Week2 {
@@ -24,5 +24,5 @@ public class Week2 {
         
         
     }
-    
+    System.out.println("Testing Fetch");
 }
