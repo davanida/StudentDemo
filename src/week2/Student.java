@@ -14,6 +14,15 @@ public class Student {
     private String name;
     private int age;
     private int sid;
+    private int maxCourse;
+
+    public int getMaxCourse() {
+        return maxCourse;
+    }
+
+    public void setMaxCourse(int maxCourse) {
+        this.maxCourse = maxCourse;
+    }
 
     public String getName() {
         return name;
@@ -38,15 +47,14 @@ public class Student {
     public void setSid(int sid) {
         this.sid = sid;
     }
-    
+
     Student(String name,
             int age,
-            int sid){
-        
+            int sid) {
+
         this.name = name;
         this.age = age;
         this.sid = sid;
     }
-    
-    
+
 }
